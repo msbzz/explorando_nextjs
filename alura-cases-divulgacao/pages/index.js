@@ -6,7 +6,7 @@ import Title from "../scr/components/titlle";
 export default function HomePage() {
   return (
     <div>
-      <Title>Alura Cases</Title>
+      <Title as='h1'>Alura Cases</Title>
        <Link href="/faq">Ir para FAQ</Link>
     </div>
   );

@@ -1,13 +1,16 @@
 import React from 'react';
 
-export default function Title({ children }) {
+export default function Title({ children, as }) {
+  const Tag =as;
+
   return (
     <React.Fragment>
-      <h1>{children}</h1>
+      <Tag>{children}</Tag>
       <style jsx>
         {`
-          h1 {
+          ${Tag} {
             color: red;
+            font-family:sans-serif;
           }
         `}
       </style>
