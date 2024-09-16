@@ -136,3 +136,5 @@ dist
 /info/
 /aulas/
 /gabaritos_zip/
+.env
+.env.local
