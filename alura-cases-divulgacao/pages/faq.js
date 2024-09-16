@@ -1,4 +1,5 @@
  
+import Head from "next/head";
 import Link from "../scr/components/Link";
 
 // SSG - Static Side Generetion
@@ -31,6 +32,9 @@ export default function FaqPage({faq}) {
  
   return (
     <div>
+      <Head>
+        <title>FAQ - Alura Cases Campanha</title>
+      </Head>
       <h1>Alura Cases - Paginas de Perguntas FAQ</h1>
       <Link href="/">Ir para a Home</Link>
       <ul>
