@@ -119,5 +119,16 @@ O projeto estará acessível em `http://localhost:3000` e, com o Ngrok ativado, 
   ### Funcionalidades estudadas no projeto
 
 
- 
+  
+**1. Inspeção de Desempenho com o Google Chrome:**
+Utilizando as "Ferramentas de Desenvolvedor" do Google Chrome, foi analisado o desempenho da página, especialmente no que diz respeito ao tempo de carregamento de recursos e às solicitações de rede. Esse processo permitiu a identificação de possíveis gargalos e oportunidades de otimização.
 
+**2. Integração ao Google Analytics:**
+A integração ao Google Analytics foi configurada para monitorar usuários ativos na aplicação, além de fornecer métricas importantes como o tempo de engajamento médio e a quantidade de novos usuários. Essa ferramenta é essencial para entender o comportamento dos visitantes e melhorar a experiência do usuário.
+
+**3. Utilização do Ngrok:**
+Foi utilizada a ferramenta Ngrok para expor servidores locais a uma URL pública, permitindo a visualização e testes de aplicações em desenvolvimento de maneira prática e segura, sem a necessidade de publicar o projeto em um servidor.
+
+**4. Introdução ao Deploy na Vercel:**
+A Vercel é uma plataforma de hospedagem otimizada para projetos front-end, especialmente os construídos com Next.js. Através da integração com o GitHub, o monitoramento e as atualizações do deploy são feitos de forma automática. Sempre que uma alteração é enviada ao repositório no GitHub, a Vercel realiza um novo deploy, garantindo que a versão mais recente da aplicação esteja disponível de maneira rápida e eficiente.
+ 
