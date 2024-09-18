@@ -61,13 +61,13 @@ Neste projeto utilizei o **vscode** mas é compatível com qualquer editor de c�
 
 - **Visual Studio Code**: Um editor leve e poderoso para desenvolvimento de aplicações web. Você pode baixá-lo [aqui](https://code.visualstudio.com/).
  
-## Variáveis de Ambiente Utilizadas
+### Variáveis de Ambiente Utilizadas
 
 No projeto, a principal variável de ambiente é:
 
 - `NEXT_PUBLIC_GOOGLE_ANALYTICS`: A chave fornecida pelo Google Analytics que permite monitorar as métricas de uso do site.
 
-## Google Analytics (Geo Analytics)
+### Google Analytics (Geo Analytics)
 
 Este projeto utiliza o Google Geo Analytics para demonstrar monitoramento de tráfego e análise de dados. Você precisa:
 
@@ -75,7 +75,7 @@ Este projeto utiliza o Google Geo Analytics para demonstrar monitoramento de tr�
 2. Criar uma nova **propriedade** no Google Analytics e obter o **ID de acompanhamento** (Tracking ID) para configurá-lo na variável de ambiente `NEXT_PUBLIC_GOOGLE_ANALYTICS`.
 3. Certifique-se de configurar corretamente o **fluxo de dados** no painel do Google Analytics para coletar dados de acesso da aplicação.
 
-## Ngrok - Expor a Aplicação Localmente
+### Ngrok - Expor a Aplicação Localmente
 
 Para expor seu ambiente de desenvolvimento local (em localhost) para a internet e integrar com o Google Analytics, siga os passos abaixo para usar o Ngrok:
 
@@ -91,7 +91,7 @@ Para expor seu ambiente de desenvolvimento local (em localhost) para a internet 
 
 4. Use o URL fornecido pelo Ngrok para testar a integração com o Google Analytics.
 
-## Executando o Projeto
+### Executando o Projeto
 
 Com todas as dependências instaladas e as variáveis de ambiente configuradas, você pode iniciar o servidor de desenvolvimento do Next.js com o comando:
 
@@ -116,9 +116,8 @@ O projeto estará acessível em `http://localhost:3000` e, com o Ngrok ativado, 
  - Exemplo 'getStaticProps'
  - Exemplo 'getServerSideProps'
 
-  ### Funcionalidades estudadas no projeto
 
-
+### Funcionalidades estudadas no projeto
   
 **1. Inspeção de Desempenho com o Google Chrome:**
 Utilizando as "Ferramentas de Desenvolvedor" do Google Chrome, foi analisado o desempenho da página, especialmente no que diz respeito ao tempo de carregamento de recursos e às solicitações de rede. Esse processo permitiu a identificação de possíveis gargalos e oportunidades de otimização.
@@ -131,4 +130,5 @@ Foi utilizada a ferramenta Ngrok para expor servidores locais a uma URL pública
 
 **4. Introdução ao Deploy na Vercel:**
 A Vercel é uma plataforma de hospedagem otimizada para projetos front-end, especialmente os construídos com Next.js. Através da integração com o GitHub, o monitoramento e as atualizações do deploy são feitos de forma automática. Sempre que uma alteração é enviada ao repositório no GitHub, a Vercel realiza um novo deploy, garantindo que a versão mais recente da aplicação esteja disponível de maneira rápida e eficiente.
- 
+
+https://explorando-nextjs-j4t9.vercel.app/ 
